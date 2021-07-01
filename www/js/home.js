@@ -32,7 +32,7 @@ var link1 = crossroads.addRoute("/home", function () {
         $.ajax({
             
                 type: "post",
-                url: "http://localhost:8084/ClassicModels/GetStaffById",
+                url: "http://www.skimtech.my/ClassicModels/GetStaffById",
                 datalist: "id=" + id,
                 cache: false,
                 success: function (mydata) {
